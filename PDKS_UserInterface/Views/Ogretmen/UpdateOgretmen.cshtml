@@ -1,0 +1,49 @@
+﻿@model UpdateOgretmenDtos
+@{
+    ViewData["Title"] = "UpdateOgretmen";
+    Layout = "~/Views/Admin/Index.cshtml";
+}
+
+<div class="container-fluid pt-4 px-4">
+    <div class="row g-4">
+        <div class="col-12">
+            <div class="bg-light rounded h-100 p-4">
+                <h6 class="mb-4">Öğretmen Güncelleme Sayfası</h6>
+                <form asp-action="createOgretmen" asp-controller="Ogretmen" method="post">
+                    <input type="hidden" asp-for="ögretmen_id" />
+                    <div class="form-group">
+                        <label>Öğretmen Adı</label>
+                        <input type="text" asp-for="ad" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                        <label>Öğretmen Soyadı</label>
+                        <input type="text" asp-for="soyad" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                        <label>Öğretmen Telefon Numarası</label>
+                        <input type="text" asp-for="telefon_no" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                        <label>Öğretmen Mail</label>
+                        <input type="text" asp-for="mail" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                        <label>Öğretmen Adres</label>
+                        <input type="text" asp-for="adres" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                        <label>Öğretmen Cinsiyet</label>
+                        <input type="text" asp-for="cinsiyet" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                        <label>Öğretmen Doğum Tarihi</label>
+                        <input type="date" asp-for="dogum_tarihi" class="form-control" />
+                    </div>
+                    <br />
+                    <button type="submit" class="btn btn-primary">Öğretmen Güncelle</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+

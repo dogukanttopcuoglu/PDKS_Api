@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\PDKS_UserInterface.props" />
+</Project>

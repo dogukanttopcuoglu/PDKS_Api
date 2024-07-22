@@ -1,0 +1,6 @@
+@PDKS_Api_HostAddress = http://localhost:5195
+
+GET {{PDKS_Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
