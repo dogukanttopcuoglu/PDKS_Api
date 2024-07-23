@@ -18,13 +18,13 @@ namespace PDKS_UserInterface.Controllers
         {
             var client = _httpClientFactory.CreateClient();
             var responseMessage = await client.GetAsync("https://localhost:44317/api/Ogretmens");
-            if(responseMessage.IsSuccessStatusCode)
+            if (responseMessage.IsSuccessStatusCode)
             {
                 var jsonData = await responseMessage.Content.ReadAsStringAsync();
                 var values = JsonConvert.DeserializeObject<List<ResultOgretmenDtos>>(jsonData);
                 return View(values);
             }
-            return View();  
+            return View();
         }
         [HttpGet]
 
@@ -41,7 +41,7 @@ namespace PDKS_UserInterface.Controllers
             StringContent stringContent = new StringContent(jsonData, Encoding.UTF8, "application/json");
             var responseMessage = await client.PostAsync("https://localhost:44317/api/Ogretmens", stringContent);
 
-         
+
             if (responseMessage.IsSuccessStatusCode)
             {
                 return RedirectToAction("Index");
@@ -50,7 +50,7 @@ namespace PDKS_UserInterface.Controllers
             ModelState.AddModelError("", "An error occurred while creating the Veli.");
             return View(); // Return the view with the model to preserve entered data
         }
-        
+
         public async Task<IActionResult> DeleteOgretmen(int id)
         {
             var client = _httpClientFactory.CreateClient();
@@ -74,7 +74,7 @@ namespace PDKS_UserInterface.Controllers
             }
             return View();
         }
-        [HttpOptions]
+        [HttpPost]
         public async Task<IActionResult> UpdateOgretmen(UpdateOgretmenDtos updateOgretmen)
         {
             var client = _httpClientFactory.CreateClient();

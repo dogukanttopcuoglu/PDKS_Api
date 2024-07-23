@@ -53,6 +53,7 @@ C:\Users\Dogukan\source\repos\PDKS_Api\PDKS_Api\obj\Release\net8.0\PDKS_Api.Asse
 C:\Users\Dogukan\source\repos\PDKS_Api\PDKS_Api\obj\Release\net8.0\PDKS_Api.csproj.CoreCompileInputs.cache
 C:\Users\Dogukan\source\repos\PDKS_Api\PDKS_Api\obj\Release\net8.0\PDKS_Api.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Dogukan\source\repos\PDKS_Api\PDKS_Api\obj\Release\net8.0\PDKS_Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Dogukan\source\repos\PDKS_Api\PDKS_Api\obj\Release\net8.0\PDKS_Api.sourcelink.json
 C:\Users\Dogukan\source\repos\PDKS_Api\PDKS_Api\obj\Release\net8.0\staticwebassets.build.json
 C:\Users\Dogukan\source\repos\PDKS_Api\PDKS_Api\obj\Release\net8.0\staticwebassets.development.json
 C:\Users\Dogukan\source\repos\PDKS_Api\PDKS_Api\obj\Release\net8.0\staticwebassets\msbuild.PDKS_Api.Microsoft.AspNetCore.StaticWebAssets.props

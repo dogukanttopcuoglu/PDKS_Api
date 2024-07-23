@@ -10,7 +10,7 @@ namespace PDKS_UserInterface.Controllers
     {
         private readonly IHttpClientFactory _httpClientFactory;
 
-        public  VeliController(IHttpClientFactory httpClientFactory)
+        public VeliController(IHttpClientFactory httpClientFactory)
         {
             _httpClientFactory = httpClientFactory;
         }
@@ -19,7 +19,7 @@ namespace PDKS_UserInterface.Controllers
         {
             var client = _httpClientFactory.CreateClient();
             var responseMessage = await client.GetAsync("https://localhost:44317/api/Velis");
-            if(responseMessage.IsSuccessStatusCode)
+            if (responseMessage.IsSuccessStatusCode)
             {
                 var jsonData = await responseMessage.Content.ReadAsStringAsync();
                 var values = JsonConvert.DeserializeObject<List<ResultVeliDto>>(jsonData);
@@ -40,7 +40,7 @@ namespace PDKS_UserInterface.Controllers
         {
             var client = _httpClientFactory.CreateClient();
             var jsonData = JsonConvert.SerializeObject(createVeliDto);
-            StringContent stringContent = new StringContent(jsonData,Encoding.UTF8,"application/json");
+            StringContent stringContent = new StringContent(jsonData, Encoding.UTF8, "application/json");
             var responseMessage = await client.PostAsync("https://localhost:44317/api/Velis", stringContent);
 
             //https://localhost:44313/VeliController/createVeliPost
@@ -61,14 +61,13 @@ namespace PDKS_UserInterface.Controllers
                 return RedirectToAction("Index");
             }
             return View();
-
         }
         [HttpGet]
         public async Task<IActionResult> UpdateVeli(int id)
         {
             var client = _httpClientFactory.CreateClient();
             var responseMessage = await client.GetAsync($"https://localhost:44317/api/Velis/{id}");
-            if(responseMessage.IsSuccessStatusCode)
+            if (responseMessage.IsSuccessStatusCode)
             {
                 var jsonData = await responseMessage.Content.ReadAsStringAsync();
                 var values = JsonConvert.DeserializeObject<UpdateVeliDto>(jsonData);
@@ -76,13 +75,13 @@ namespace PDKS_UserInterface.Controllers
             }
             return View();
         }
-        [HttpOptions]
+        [HttpPost]
         public async Task<IActionResult> UpdateVeli(UpdateVeliDto updateVeliDto)
         {
             var client = _httpClientFactory.CreateClient();
             var jsonData = JsonConvert.SerializeObject(updateVeliDto);
             StringContent stringContent = new StringContent(jsonData, Encoding.UTF8, "application/json");
-            var responseMessage = await client.PutAsync("https://localhost:44317/api/Velis/" , stringContent);
+            var responseMessage = await client.PutAsync("https://localhost:44317/api/Velis/", stringContent);
             if (responseMessage.IsSuccessStatusCode)
             {
                 return RedirectToAction("Index");

@@ -54,6 +54,18 @@ namespace PDKS_Api.Repositories.OgretmenRepository
             }
         }
 
+        public async Task<GetByIDOgretmenDto> GetOgretmen(int id)
+        {
+            string query = "Select * From Ogretmen Where ögretmen_id=@ögretmen_id";
+            var parameters = new DynamicParameters();
+            parameters.Add("@ögretmen_id", id);
+            using(var connection = _context.CreateConnection())
+            {
+                var values = await connection.QueryFirstOrDefaultAsync<GetByIDOgretmenDto>(query, parameters);
+                return values;
+            }
+        }
+
         public async void UpdateOgretmen(UpdateOgretmenDto ogretmenDto)
         { 
             string query = "Update Ogretmen Set ad=@ad,soyad=@soyad,telefon_no=@telefon_no,mail=@mail,adres=@adres,cinsiyet=@cinsiyet,dogum_tarihi=@dogum_tarihi where ögretmen_id=@ögretmen_id";

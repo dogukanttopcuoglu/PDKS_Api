@@ -527,3 +527,4 @@ C:\Users\Dogukan\source\repos\PDKS_Api\PDKS_UserInterface\bin\Debug\net8.0\refs\
 C:\Users\Dogukan\source\repos\PDKS_Api\PDKS_UserInterface\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
 C:\Users\Dogukan\source\repos\PDKS_Api\PDKS_UserInterface\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.dll
 C:\Users\Dogukan\source\repos\PDKS_Api\PDKS_UserInterface\obj\Debug\net8.0\PDKS_UserInterface.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Dogukan\source\repos\PDKS_Api\PDKS_UserInterface\obj\Debug\net8.0\PDKS_UserInterface.sourcelink.json

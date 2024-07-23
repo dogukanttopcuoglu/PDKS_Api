@@ -511,6 +511,7 @@ C:\Users\Dogukan\source\repos\PDKS_Api\PDKS_UserInterface\obj\Release\net8.0\PDK
 C:\Users\Dogukan\source\repos\PDKS_Api\PDKS_UserInterface\obj\Release\net8.0\PDKS_UserInterface.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Dogukan\source\repos\PDKS_Api\PDKS_UserInterface\obj\Release\net8.0\PDKS_UserInterface.RazorAssemblyInfo.cache
 C:\Users\Dogukan\source\repos\PDKS_Api\PDKS_UserInterface\obj\Release\net8.0\PDKS_UserInterface.RazorAssemblyInfo.cs
+C:\Users\Dogukan\source\repos\PDKS_Api\PDKS_UserInterface\obj\Release\net8.0\PDKS_UserInterface.sourcelink.json
 C:\Users\Dogukan\source\repos\PDKS_Api\PDKS_UserInterface\obj\Release\net8.0\staticwebassets.build.json
 C:\Users\Dogukan\source\repos\PDKS_Api\PDKS_UserInterface\obj\Release\net8.0\staticwebassets.development.json
 C:\Users\Dogukan\source\repos\PDKS_Api\PDKS_UserInterface\obj\Release\net8.0\staticwebassets\msbuild.PDKS_UserInterface.Microsoft.AspNetCore.StaticWebAssets.props

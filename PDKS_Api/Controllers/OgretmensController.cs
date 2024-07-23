@@ -40,6 +40,12 @@ namespace PDKS_Api.Controllers
             _ogretmenRepository.UpdateOgretmen(updateOgretmenDto);
             return Ok("Öğretmen Başarılı Bir Şekilde Güncellendi");
         }
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetOgretmen(int id)
+        {
+            var value = await _ogretmenRepository.GetOgretmen(id);
+            return Ok(value);
+        }
         
     }
 }
