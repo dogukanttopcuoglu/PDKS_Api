@@ -1,0 +1,39 @@
+﻿@model List<ResultSınıfDto>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Admin/Index.cshtml";
+    int sayac = 1;
+}
+<div class="container-fluid pt-4 px-4">
+    <div class="row g-4">
+        <div class="col-12">
+            <div class="bg-light rounded h-100 p-4">
+                <h6 class="mb-4">Sınıf Listesi</h6>
+                <div class="table-responsive">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Ad</th>
+                                <th scope="col">Ögretmen ID</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <th scope="row">@sayac</th>
+                                    <td>@item.ad</td>
+                                    <td>@item.ögretmen_id</td>                                   
+                                </tr>
+                                sayac++;
+                            }
+                        </tbody>
+                    </table>
+                    <a href="\Veli\createVeli" class="btn btn-outline-info">Yeni Veli Giriş</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

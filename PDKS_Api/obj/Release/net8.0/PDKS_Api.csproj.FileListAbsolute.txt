@@ -68,3 +68,4 @@ C:\Users\Dogukan\source\repos\PDKS_Api\PDKS_Api\obj\Release\net8.0\refint\PDKS_A
 C:\Users\Dogukan\source\repos\PDKS_Api\PDKS_Api\obj\Release\net8.0\PDKS_Api.pdb
 C:\Users\Dogukan\source\repos\PDKS_Api\PDKS_Api\obj\Release\net8.0\PDKS_Api.genruntimeconfig.cache
 C:\Users\Dogukan\source\repos\PDKS_Api\PDKS_Api\obj\Release\net8.0\ref\PDKS_Api.dll
+C:\Users\Dogukan\source\repos\PDKS_Api\PDKS_Api\bin\Release\net8.0\BCrypt.Net-Next.dll

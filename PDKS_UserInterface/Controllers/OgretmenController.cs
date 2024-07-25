@@ -1,10 +1,12 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using PDKS_UserInterface.Dtos.ÖgretmenDtos;
 using System.Text;
 
 namespace PDKS_UserInterface.Controllers
 {
+    [Authorize]
     public class OgretmenController : Controller
     {
         private readonly IHttpClientFactory _httpClientFactory;
