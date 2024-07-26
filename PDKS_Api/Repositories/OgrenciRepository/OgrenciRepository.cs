@@ -1,6 +1,7 @@
 ﻿using PDKS_Api.Dtos.OgrenciDtos;
 using PDKS_Api.Models.DapperContext;
 using Dapper;
+using Microsoft.AspNetCore.Http.HttpResults;
 
 namespace PDKS_Api.Repositories.OgrenciRepository
 {
@@ -59,6 +60,37 @@ namespace PDKS_Api.Repositories.OgrenciRepository
                 }
             }
         }
+
+        public async Task<List<ResultOgrenciListWithSınıfByOgretmenDto>> GetOgrenciListByOgretmenAsync(int id)
+        {
+            string query = @"
+        SELECT 
+            Ogrenci.ögrenci_id,
+            Ogrenci.ad AS ogrenci_ad,
+            Ogrenci.soyad,
+            Ogrenci.telefon_no,
+            Ogrenci.adres,
+            Ogrenci.cinsiyet,
+            Ogrenci.dogum_tarihi,
+            Ogretmen.ad AS ogretmen_ad
+        FROM 
+            Ogrenci 
+        INNER JOIN 
+            Ogretmen ON Ogrenci.ögretmen_id = Ogretmen.ögretmen_id 
+        WHERE 
+            Ogretmen.ögretmen_id = @ögretmen_id";
+
+            var parameters = new DynamicParameters();
+            parameters.Add("ögretmen_id", id);
+
+            using (var connection = _context.CreateConnection())
+            {
+                var values = await connection.QueryAsync<ResultOgrenciListWithSınıfByOgretmenDto>(query, parameters);
+                return values.ToList();
+            }
+        }
+
+       
 
         public async void UpdateOgrenci(UpdateOgrenciDto ogrenciDto)
         {

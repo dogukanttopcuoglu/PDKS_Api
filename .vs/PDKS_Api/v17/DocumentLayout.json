@@ -3,20 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\Dogukan\\source\\repos\\PDKS_Api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{78ADAA3A-7E15-4A7D-85D3-096174D53C6D}|PDKS_UserInterface\\PDKS_UserInterface.csproj|c:\\users\\dogukan\\source\\repos\\pdks_api\\pdks_userinterface\\controllers\\ogretmencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78ADAA3A-7E15-4A7D-85D3-096174D53C6D}|PDKS_UserInterface\\PDKS_UserInterface.csproj|solutionrelative:pdks_userinterface\\controllers\\ogretmencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D2FCC74B-722B-4CE2-A595-2BEF1CE5F775}|PDKS_Api\\PDKS_Api.csproj|c:\\users\\dogukan\\source\\repos\\pdks_api\\pdks_api\\dtos\\ogrencidtos\\resultogrencidto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2FCC74B-722B-4CE2-A595-2BEF1CE5F775}|PDKS_Api\\PDKS_Api.csproj|solutionrelative:pdks_api\\dtos\\ogrencidtos\\resultogrencidto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{78ADAA3A-7E15-4A7D-85D3-096174D53C6D}|PDKS_UserInterface\\PDKS_UserInterface.csproj|c:\\users\\dogukan\\source\\repos\\pdks_api\\pdks_userinterface\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78ADAA3A-7E15-4A7D-85D3-096174D53C6D}|PDKS_UserInterface\\PDKS_UserInterface.csproj|solutionrelative:pdks_userinterface\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D2FCC74B-722B-4CE2-A595-2BEF1CE5F775}|PDKS_Api\\PDKS_Api.csproj|c:\\users\\dogukan\\source\\repos\\pdks_api\\pdks_api\\dtos\\ogretmendtos\\resultogretmendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2FCC74B-722B-4CE2-A595-2BEF1CE5F775}|PDKS_Api\\PDKS_Api.csproj|solutionrelative:pdks_api\\dtos\\ogretmendtos\\resultogretmendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{78ADAA3A-7E15-4A7D-85D3-096174D53C6D}|PDKS_UserInterface\\PDKS_UserInterface.csproj|c:\\users\\dogukan\\source\\repos\\pdks_api\\pdks_userinterface\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78ADAA3A-7E15-4A7D-85D3-096174D53C6D}|PDKS_UserInterface\\PDKS_UserInterface.csproj|solutionrelative:pdks_userinterface\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D2FCC74B-722B-4CE2-A595-2BEF1CE5F775}|PDKS_Api\\PDKS_Api.csproj|c:\\users\\dogukan\\source\\repos\\pdks_api\\pdks_api\\dtos\\ogrencidtos\\resultogrencilistwiths\u0131n\u0131fbyogretmendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2FCC74B-722B-4CE2-A595-2BEF1CE5F775}|PDKS_Api\\PDKS_Api.csproj|solutionrelative:pdks_api\\dtos\\ogrencidtos\\resultogrencilistwiths\u0131n\u0131fbyogretmendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{78ADAA3A-7E15-4A7D-85D3-096174D53C6D}|PDKS_UserInterface\\PDKS_UserInterface.csproj|c:\\users\\dogukan\\source\\repos\\pdks_api\\pdks_userinterface\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78ADAA3A-7E15-4A7D-85D3-096174D53C6D}|PDKS_UserInterface\\PDKS_UserInterface.csproj|solutionrelative:pdks_userinterface\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D2FCC74B-722B-4CE2-A595-2BEF1CE5F775}|PDKS_Api\\PDKS_Api.csproj|c:\\users\\dogukan\\source\\repos\\pdks_api\\pdks_api\\controllers\\ogrenciscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2FCC74B-722B-4CE2-A595-2BEF1CE5F775}|PDKS_Api\\PDKS_Api.csproj|solutionrelative:pdks_api\\controllers\\ogrenciscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2FCC74B-722B-4CE2-A595-2BEF1CE5F775}|PDKS_Api\\PDKS_Api.csproj|c:\\users\\dogukan\\source\\repos\\pdks_api\\pdks_api\\repositories\\ogrencirepository\\ogrencirepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2FCC74B-722B-4CE2-A595-2BEF1CE5F775}|PDKS_Api\\PDKS_Api.csproj|solutionrelative:pdks_api\\repositories\\ogrencirepository\\ogrencirepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2FCC74B-722B-4CE2-A595-2BEF1CE5F775}|PDKS_Api\\PDKS_Api.csproj|c:\\users\\dogukan\\source\\repos\\pdks_api\\pdks_api\\controllers\\ogretmenscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2FCC74B-722B-4CE2-A595-2BEF1CE5F775}|PDKS_Api\\PDKS_Api.csproj|solutionrelative:pdks_api\\controllers\\ogretmenscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2FCC74B-722B-4CE2-A595-2BEF1CE5F775}|PDKS_Api\\PDKS_Api.csproj|c:\\users\\dogukan\\source\\repos\\pdks_api\\pdks_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2FCC74B-722B-4CE2-A595-2BEF1CE5F775}|PDKS_Api\\PDKS_Api.csproj|solutionrelative:pdks_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,59 +38,97 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Dogukan\\source\\repos\\PDKS_Api\\PDKS_UserInterface\\Program.cs",
-              "RelativeDocumentMoniker": "PDKS_UserInterface\\Program.cs",
-              "ToolTip": "C:\\Users\\Dogukan\\source\\repos\\PDKS_Api\\PDKS_UserInterface\\Program.cs",
-              "RelativeToolTip": "PDKS_UserInterface\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAqAAAA",
+              "DocumentIndex": 5,
+              "Title": "OgretmensController.cs",
+              "DocumentMoniker": "C:\\Users\\Dogukan\\source\\repos\\PDKS_Api\\PDKS_Api\\Controllers\\OgretmensController.cs",
+              "RelativeDocumentMoniker": "PDKS_Api\\Controllers\\OgretmensController.cs",
+              "ToolTip": "C:\\Users\\Dogukan\\source\\repos\\PDKS_Api\\PDKS_Api\\Controllers\\OgretmensController.cs",
+              "RelativeToolTip": "PDKS_Api\\Controllers\\OgretmensController.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAwwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-25T11:52:12.004Z",
+              "WhenOpened": "2024-07-26T13:31:35.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OgrencisController.cs",
+              "DocumentMoniker": "C:\\Users\\Dogukan\\source\\repos\\PDKS_Api\\PDKS_Api\\Controllers\\OgrencisController.cs",
+              "RelativeDocumentMoniker": "PDKS_Api\\Controllers\\OgrencisController.cs",
+              "ToolTip": "C:\\Users\\Dogukan\\source\\repos\\PDKS_Api\\PDKS_Api\\Controllers\\OgrencisController.cs",
+              "RelativeToolTip": "PDKS_Api\\Controllers\\OgrencisController.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAwwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T13:30:17.041Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Dogukan\\source\\repos\\PDKS_Api\\PDKS_UserInterface\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "PDKS_UserInterface\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Dogukan\\source\\repos\\PDKS_Api\\PDKS_UserInterface\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "PDKS_UserInterface\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAEAAAA",
+              "Title": "ResultOgretmenDto.cs",
+              "DocumentMoniker": "C:\\Users\\Dogukan\\source\\repos\\PDKS_Api\\PDKS_Api\\Dtos\\OgretmenDtos\\ResultOgretmenDto.cs",
+              "RelativeDocumentMoniker": "PDKS_Api\\Dtos\\OgretmenDtos\\ResultOgretmenDto.cs",
+              "ToolTip": "C:\\Users\\Dogukan\\source\\repos\\PDKS_Api\\PDKS_Api\\Dtos\\OgretmenDtos\\ResultOgretmenDto.cs",
+              "RelativeToolTip": "PDKS_Api\\Dtos\\OgretmenDtos\\ResultOgretmenDto.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAQwBsAAABWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-25T10:56:33.731Z",
+              "WhenOpened": "2024-07-26T13:29:18.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OgrenciRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Dogukan\\source\\repos\\PDKS_Api\\PDKS_Api\\Repositories\\OgrenciRepository\\OgrenciRepository.cs",
+              "RelativeDocumentMoniker": "PDKS_Api\\Repositories\\OgrenciRepository\\OgrenciRepository.cs",
+              "ToolTip": "C:\\Users\\Dogukan\\source\\repos\\PDKS_Api\\PDKS_Api\\Repositories\\OgrenciRepository\\OgrenciRepository.cs",
+              "RelativeToolTip": "PDKS_Api\\Repositories\\OgrenciRepository\\OgrenciRepository.cs",
+              "ViewState": "AQIAADcAAAAAAAAAAAAIwFQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T08:55:08.82Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "LoginController.cs",
-              "DocumentMoniker": "C:\\Users\\Dogukan\\source\\repos\\PDKS_Api\\PDKS_UserInterface\\Controllers\\LoginController.cs",
-              "RelativeDocumentMoniker": "PDKS_UserInterface\\Controllers\\LoginController.cs",
-              "ToolTip": "C:\\Users\\Dogukan\\source\\repos\\PDKS_Api\\PDKS_UserInterface\\Controllers\\LoginController.cs",
-              "RelativeToolTip": "PDKS_UserInterface\\Controllers\\LoginController.cs",
-              "ViewState": "AQIAAC8AAAAAAAAAAAAwwEkAAABCAAAA",
+              "Title": "ResultOgrenciListWithS\u0131n\u0131fByOgretmenDto.cs",
+              "DocumentMoniker": "C:\\Users\\Dogukan\\source\\repos\\PDKS_Api\\PDKS_Api\\Dtos\\OgrenciDtos\\ResultOgrenciListWithS\u0131n\u0131fByOgretmenDto.cs",
+              "RelativeDocumentMoniker": "PDKS_Api\\Dtos\\OgrenciDtos\\ResultOgrenciListWithS\u0131n\u0131fByOgretmenDto.cs",
+              "ToolTip": "C:\\Users\\Dogukan\\source\\repos\\PDKS_Api\\PDKS_Api\\Dtos\\OgrenciDtos\\ResultOgrenciListWithS\u0131n\u0131fByOgretmenDto.cs",
+              "RelativeToolTip": "PDKS_Api\\Dtos\\OgrenciDtos\\ResultOgrenciListWithS\u0131n\u0131fByOgretmenDto.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-25T06:26:31.413Z",
+              "WhenOpened": "2024-07-26T08:44:05.965Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "OgretmenController.cs",
-              "DocumentMoniker": "C:\\Users\\Dogukan\\source\\repos\\PDKS_Api\\PDKS_UserInterface\\Controllers\\OgretmenController.cs",
-              "RelativeDocumentMoniker": "PDKS_UserInterface\\Controllers\\OgretmenController.cs",
-              "ToolTip": "C:\\Users\\Dogukan\\source\\repos\\PDKS_Api\\PDKS_UserInterface\\Controllers\\OgretmenController.cs",
-              "RelativeToolTip": "PDKS_UserInterface\\Controllers\\OgretmenController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAJAAAA",
+              "Title": "ResultOgrenciDto.cs",
+              "DocumentMoniker": "C:\\Users\\Dogukan\\source\\repos\\PDKS_Api\\PDKS_Api\\Dtos\\OgrenciDtos\\ResultOgrenciDto.cs",
+              "RelativeDocumentMoniker": "PDKS_Api\\Dtos\\OgrenciDtos\\ResultOgrenciDto.cs",
+              "ToolTip": "C:\\Users\\Dogukan\\source\\repos\\PDKS_Api\\PDKS_Api\\Dtos\\OgrenciDtos\\ResultOgrenciDto.cs",
+              "RelativeToolTip": "PDKS_Api\\Dtos\\OgrenciDtos\\ResultOgrenciDto.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAA1wB0AAABKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-25T06:27:24.42Z",
+              "WhenOpened": "2024-07-26T13:27:24.377Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Dogukan\\source\\repos\\PDKS_Api\\PDKS_Api\\Program.cs",
+              "RelativeDocumentMoniker": "PDKS_Api\\Program.cs",
+              "ToolTip": "C:\\Users\\Dogukan\\source\\repos\\PDKS_Api\\PDKS_Api\\Program.cs",
+              "RelativeToolTip": "PDKS_Api\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T11:43:46.471Z"
             }
           ]
         }

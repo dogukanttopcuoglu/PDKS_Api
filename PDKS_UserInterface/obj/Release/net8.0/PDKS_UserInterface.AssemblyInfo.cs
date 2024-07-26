@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PDKS_UserInterface")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cd144a6729862a67c2c7cf4c8ffd35ff570adb58")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4533ef52ea944864f6e65407c02498bef34a2a53")]
 [assembly: System.Reflection.AssemblyProductAttribute("PDKS_UserInterface")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PDKS_UserInterface")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

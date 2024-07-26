@@ -1,4 +1,5 @@
-﻿using System.Text.Json.Serialization;
+﻿using PDKS_Api.Dtos.OgrenciDtos;
+using System.Text.Json.Serialization;
 
 namespace PDKS_Api.Dtos.OgretmenDtos
 {
@@ -23,5 +24,9 @@ namespace PDKS_Api.Dtos.OgretmenDtos
                 return dogum_tarihi.ToString("yyyy-MM-dd");
             }
         }
+
+        //public virtual ICollection<ResultOgrenciDto> ResultOgrenciDtos { get; set; }
+
+
     }
 }

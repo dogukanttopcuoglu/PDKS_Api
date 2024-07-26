@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PDKS_Api.Dtos.OgretmenDtos;
+using System;
 using System.Text.Json.Serialization;
 
 namespace PDKS_Api.Dtos.OgrenciDtos
@@ -26,6 +27,9 @@ namespace PDKS_Api.Dtos.OgrenciDtos
 
         public int veli_id { get; set; }
         public int sınıf_id { get; set; }
-        public int ögretmen_id { get; set; }
+        //public virtual ResultOgretmenDto ResultOgretmenDto { get; set; }
+
+        //public int ögretmen_id { get; set; }
+
     }
 }
