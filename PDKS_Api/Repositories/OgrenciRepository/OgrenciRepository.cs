@@ -63,23 +63,7 @@ namespace PDKS_Api.Repositories.OgrenciRepository
 
         public async Task<List<ResultOgrenciListWithSınıfByOgretmenDto>> GetOgrenciListByOgretmenAsync(int id)
         {
-            string query = @"
-        SELECT 
-            Ogrenci.ögrenci_id,
-            Ogrenci.ad AS ogrenci_ad,
-            Ogrenci.soyad,
-            Ogrenci.telefon_no,
-            Ogrenci.adres,
-            Ogrenci.cinsiyet,
-            Ogrenci.dogum_tarihi,
-            Ogretmen.ad AS ogretmen_ad
-        FROM 
-            Ogrenci 
-        INNER JOIN 
-            Ogretmen ON Ogrenci.ögretmen_id = Ogretmen.ögretmen_id 
-        WHERE 
-            Ogretmen.ögretmen_id = @ögretmen_id";
-
+            string query = "Select ögrenci_id,ogrenci_ad,ogrenci_soyad,ogrenci_telefon_no,ogrenci_adres,ogrenci_cinsiyet,ogretmen_ad From Ogrenci inner join Ogretmen on Ogrenci.ogrenci_ögretmen_id=Ogretmen.ögretmen_id where ögretmen_id=@ögretmen_id";
             var parameters = new DynamicParameters();
             parameters.Add("ögretmen_id", id);
 

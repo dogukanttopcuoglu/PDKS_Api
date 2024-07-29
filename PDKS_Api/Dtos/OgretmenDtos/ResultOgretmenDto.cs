@@ -6,7 +6,7 @@ namespace PDKS_Api.Dtos.OgretmenDtos
     public class ResultOgretmenDto
     {
         public int ögretmen_id { get; set; }
-        public string ad { get; set; }
+        public string ogretmenAd { get; set; }
         public string soyad { get; set; }
         public string telefon_no { get; set; }
         public string mail { get; set; }

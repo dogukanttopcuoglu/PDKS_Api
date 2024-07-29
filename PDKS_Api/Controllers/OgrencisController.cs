@@ -44,7 +44,7 @@ namespace PDKS_Api.Controllers
         [HttpGet("OgrenciListByOgretmen")]
         public async Task<IActionResult> OgrenciListByOgretmen(int id)
         {
-            var values = _ogrenciRepository.GetOgrenciListByOgretmenAsync(id);
+            var values = await _ogrenciRepository.GetOgrenciListByOgretmenAsync(id);
             return Ok(values);
         }
 
