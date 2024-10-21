@@ -16,15 +16,15 @@ namespace PDKS_Api.Repositories.VeliRepository
 
         public async void CreateVeli(CreateVeliDto veliDto)
         {
-            string query = "insert into Veli (ad,soyad,telefon_no,mail,adres,cinsiyet,dogum_tarihi) values (@ad,@soyad,@telefon_no,@mail,@adres,@cinsiyet,@dogum_tarihi)";
+            string query = "insert into Veli (veli_ad,veli_soyad,veli_telefon_no,veli_mail,veli_adres,veli_cinsiyet,veli_dogum_tarihi) values (@ad,@soyad,@telefon_no,@mail,@adres,@cinsiyet,@dogum_tarihi)";
             var parameters = new DynamicParameters();
-            parameters.Add("@ad", veliDto.ad);
-            parameters.Add("@soyad", veliDto.soyad);
-            parameters.Add("@telefon_no", veliDto.telefon_no);
-            parameters.Add("@mail", veliDto.mail);
-            parameters.Add("@adres", veliDto.adres);
-            parameters.Add("@cinsiyet", veliDto.cinsiyet);
-            parameters.Add("@dogum_tarihi", veliDto.dogum_tarihi);
+            parameters.Add("@ad", veliDto.veli_ad);
+            parameters.Add("@soyad", veliDto.veli_soyad);
+            parameters.Add("@telefon_no", veliDto.veli_telefon_no);
+            parameters.Add("@mail", veliDto.veli_mail);
+            parameters.Add("@adres", veliDto.veli_adres);
+            parameters.Add("@cinsiyet", veliDto.veli_cinsiyet);
+            parameters.Add("@dogum_tarihi", veliDto.veli_dogum_tarihi);
             using(var connection = _context.CreateConnection())
             {
                 await connection.ExecuteAsync(query, parameters);
@@ -69,15 +69,15 @@ namespace PDKS_Api.Repositories.VeliRepository
 
         public async void UpdateVeli(UpdateVeliDto veliDto)
         {
-            string query = "Update Veli Set ad=@ad,soyad=@soyad,telefon_no=@telefon_no,mail=@mail,adres=@adres,cinsiyet=@cinsiyet,dogum_tarihi=@dogum_tarihi where veli_id=@veli_id";
+            string query = "Update Veli Set veli_ad=@ad,veli_soyad=@soyad,veli_telefon_no=@telefon_no,veli_mail=@mail,veli_adres=@adres,veli_cinsiyet=@cinsiyet,veli_dogum_tarihi=@dogum_tarihi where veli_id=@veli_id";
             var parameters = new DynamicParameters();
-            parameters.Add("@ad", veliDto.ad);
-            parameters.Add("@soyad", veliDto.soyad);
-            parameters.Add("@telefon_no", veliDto.telefon_no);
-            parameters.Add("@mail", veliDto.mail);
-            parameters.Add("@adres", veliDto.adres);
-            parameters.Add("@cinsiyet", veliDto.cinsiyet);
-            parameters.Add("@dogum_tarihi", veliDto.dogum_tarihi);
+            parameters.Add("@ad", veliDto.veli_ad);
+            parameters.Add("@soyad", veliDto.veli_soyad);
+            parameters.Add("@telefon_no", veliDto.veli_telefon_no);
+            parameters.Add("@mail", veliDto.veli_mail);
+            parameters.Add("@adres", veliDto.veli_adres);
+            parameters.Add("@cinsiyet", veliDto.veli_cinsiyet);
+            parameters.Add("@dogum_tarihi", veliDto.veli_dogum_tarihi);
             parameters.Add("@veli_id", veliDto.veli_id);
 
 

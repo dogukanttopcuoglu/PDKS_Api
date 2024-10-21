@@ -2,13 +2,13 @@
 {
     public class CreateOgretmenDto
     {
-        public string ad { get; set; }
-        public string soyad { get; set; }
-        public string telefon_no { get; set; }
-        public string mail { get; set; }
-        public string adres { get; set; }
-        public string cinsiyet { get; set; }
-        public DateTime dogum_tarihi { get; set; }
+        public string ogretmen_ad { get; set; }
+        public string ogretmen_soyad { get; set; }
+        public string ogretmen_telefon_no { get; set; }
+        public string ogretmen_mail { get; set; }
+        public string ogretmen_adres { get; set; }
+        public string ogretmen_cinsiyet { get; set; }
+        public DateTime ogretmen_dogum_tarihi { get; set; }
 
     }
 }

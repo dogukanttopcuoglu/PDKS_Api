@@ -3,13 +3,13 @@
     public class UpdateVeliDto
     {
         public int veli_id { get; set; }
-        public string ad { get; set; }
-        public string soyad { get; set; }
-        public string telefon_no { get; set; }
-        public string mail { get; set; }
-        public string adres { get; set; }
-        public string cinsiyet { get; set; }
-        public DateTime dogum_tarihi { get; set; }
+        public string veli_ad { get; set; }
+        public string veli_soyad { get; set; }
+        public string veli_telefon_no { get; set; }
+        public string veli_mail { get; set; }
+        public string veli_adres { get; set; }
+        public string veli_cinsiyet { get; set; }
+        public DateTime veli_dogum_tarihi { get; set; }
 
     }
 }
