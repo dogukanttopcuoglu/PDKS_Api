@@ -1,4 +1,7 @@
 This project is developed for schools to keep track the data of students,teachers,parent's essential informations.
+PDKS_Api for backend codes.
+PDKS_UserInterface for UI.
+
 You can run this project with following instrucitons:
 
 
