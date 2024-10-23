@@ -17,15 +17,15 @@ namespace PDKS_Api.Repositories.OgretmenRepository
 
         public async void CreateOgretmen(CreateOgretmenDto ogretmenDto)
         {
-            string query = "insert into Ogretmen (ogretmen_ad,ogretmen_soyad,ogretmen_telefon_no,ogretmen_mail,ogretmen_adres,ogretmen_cinsiyet,ogretmen_dogum_tarihi) values (@ad,@soyad,@telefon_no,@mail,@adres,@cinsiyet,@dogum_tarihi)";
+            string query = "insert into Ogretmen (ogretmen_ad,ogretmen_soyad,ogretmen_telefon_no,ogretmen_mail,ogretmen_adres,ogretmen_cinsiyet,ogretmen_dogum_tarihi) values (@ogretmen_ad,@ogretmen_soyad,@ogretmen_telefon_no,@ogretmen_mail,@ogretmen_adres,@ogretmen_cinsiyet,@ogretmen_dogum_tarihi)";
             var parameters = new DynamicParameters();
-            parameters.Add("@ad", ogretmenDto.ogretmen_ad);
-            parameters.Add("@soyad", ogretmenDto.ogretmen_soyad);
-            parameters.Add("@telefon_no", ogretmenDto.ogretmen_telefon_no);
-            parameters.Add("@mail", ogretmenDto.ogretmen_mail);
-            parameters.Add("@adres", ogretmenDto.ogretmen_adres);
-            parameters.Add("@cinsiyet", ogretmenDto.ogretmen_cinsiyet);
-            parameters.Add("@dogum_tarihi", ogretmenDto.ogretmen_dogum_tarihi);
+            parameters.Add("@ogretmen_ad", ogretmenDto.ogretmen_ad);
+            parameters.Add("@ogretmen_soyad", ogretmenDto.ogretmen_soyad);
+            parameters.Add("@ogretmen_telefon_no", ogretmenDto.ogretmen_telefon_no);
+            parameters.Add("@ogretmen_mail", ogretmenDto.ogretmen_mail);
+            parameters.Add("@ogretmen_adres", ogretmenDto.ogretmen_adres);
+            parameters.Add("@ogretmen_cinsiyet", ogretmenDto.ogretmen_cinsiyet);
+            parameters.Add("@ogretmen_dogum_tarihi", ogretmenDto.ogretmen_dogum_tarihi);
             using (var connection = _context.CreateConnection())
             {
                 await connection.ExecuteAsync(query, parameters);
@@ -68,15 +68,15 @@ namespace PDKS_Api.Repositories.OgretmenRepository
 
         public async void UpdateOgretmen(UpdateOgretmenDto ogretmenDto)
         { 
-            string query = "Update Ogretmen Set ogretmen_ad=@ad,ogretmen_soyad=@soyad,ogretmen_telefon_no=@telefon_no,ogretmen_mail=@mail,ogretmen_adres=@adres,ogretmen_cinsiyet=@cinsiyet,ogretmen_dogum_tarihi=@dogum_tarihi where ögretmen_id=@ögretmen_id";
+            string query = "Update Ogretmen Set ogretmen_ad=@ogretmen_ad,ogretmen_soyad=@ogretmen_soyad,ogretmen_telefon_no=@ogretmen_telefon_no,ogretmen_mail=@ogretmen_mail,ogretmen_adres=@ogretmen_adres,ogretmen_cinsiyet=@ogretmen_cinsiyet,ogretmen_dogum_tarihi=@ogretmen_dogum_tarihi where ögretmen_id=@ögretmen_id";
             var parameters = new DynamicParameters();
-            parameters.Add("@ad", ogretmenDto.ogretmen_ad);
-            parameters.Add("@soyad", ogretmenDto.ogretmen_soyad);
-            parameters.Add("@telefon_no", ogretmenDto.ogretmen_telefon_no);
-            parameters.Add("@mail", ogretmenDto.ogretmen_mail);
-            parameters.Add("@adres", ogretmenDto.ogretmen_adres);
-            parameters.Add("@cinsiyet", ogretmenDto.ogretmen_cinsiyet);
-            parameters.Add("@dogum_tarihi", ogretmenDto.ogretmen_dogum_tarihi);
+            parameters.Add("@ogretmen_ad", ogretmenDto.ogretmen_ad);
+            parameters.Add("@ogretmen_soyad", ogretmenDto.ogretmen_soyad);
+            parameters.Add("@ogretmen_telefon_no", ogretmenDto.ogretmen_telefon_no);
+            parameters.Add("@ogretmen_mail", ogretmenDto.ogretmen_mail);
+            parameters.Add("@ogretmen_adres", ogretmenDto.ogretmen_adres);
+            parameters.Add("@ogretmen_cinsiyet", ogretmenDto.ogretmen_cinsiyet);
+            parameters.Add("@ogretmen_dogum_tarihi", ogretmenDto.ogretmen_dogum_tarihi);
             parameters.Add("@ögretmen_id", ogretmenDto.ögretmen_id);
 
 

@@ -1,0 +1,49 @@
+﻿@model CreateOgrenciDto
+@{
+    ViewData["Title"] = "CreateOgrenci";
+    Layout = "~/Views/Admin/Index.cshtml";
+}
+
+<h1>Yeni Öğrenci Ekleme Sayfası</h1>
+<form asp-action="CreateOgrenci" asp-controller="Ogrenci" method="post">
+    <div class="form-group">
+        <label>Öğrenci Adı</label>
+        <input type="text" asp-for="ogrenci_ad" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label>Öğrenci Soyadı</label>
+        <input type="text" asp-for="ogrenci_soyad" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label>Öğrenci Telefon Numarası</label>
+        <input type="text" asp-for="ogrenci_telefon_no" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label>Öğrenci Adres</label>
+        <input type="text" asp-for="ogrenci_adres" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label>Öğrenci Cinsiyet</label>
+        <input type="text" asp-for="ogrenci_cinsiyet" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label>Öğrenci Doğum Tarihi</label>
+        <input type="date" asp-for="ogrenci_dogum_tarihi" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label>Veli ID</label>
+        <input type="text" asp-for="ogrenci_veli_id" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label>Sınıf ID</label>
+        <input type="text" asp-for="ogrenci_sınıf_id" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label>Öğretmen ID</label>
+        <input type="text" asp-for="ogrenci_ögretmen_id" class="form-control" />
+    </div>
+    <br />
+    <button type="submit" class="btn btn-primary">Öğrenciyi Kaydet</button>
+</form>
+
+

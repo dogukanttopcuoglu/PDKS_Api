@@ -38,7 +38,7 @@
                                     <td>@item.ogretmen_mail</td>
                                     <td>@item.ogretmen_adres</td>
                                     <td>@item.ogretmen_cinsiyet</td>
-                                    <td>@item.ogretmen_dogum_tarihi</td>
+                                    <td>@item.ogretmen_dogum_tarihi.ToString("dd.MM.yyyy")</td>
                                     <td><a href="/Ogretmen/DeleteOgretmen/@item.ögretmen_id" type="button" class="btn btn-danger">Sil</a></td>
                                     <td><a href="/Ogretmen/UpdateOgretmen/@item.ögretmen_id" type="button" class="btn btn-success">Güncelle</a></td>
                                 </tr>

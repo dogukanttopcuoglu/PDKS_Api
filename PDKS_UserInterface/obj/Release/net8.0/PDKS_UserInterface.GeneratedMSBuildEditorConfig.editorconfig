@@ -50,8 +50,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Dogukan/source/repos/PDKS_Api/PDKS_UserInterface/Views/Ogrenci/CreateOgrenci.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2dyZW5jaVxDcmVhdGVPZ3JlbmNpLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Dogukan/source/repos/PDKS_Api/PDKS_UserInterface/Views/Ogrenci/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2dyZW5jaVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dogukan/source/repos/PDKS_Api/PDKS_UserInterface/Views/Ogrenci/UpdateOgrenci.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2dyZW5jaVxVcGRhdGVPZ3JlbmNpLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Dogukan/source/repos/PDKS_Api/PDKS_UserInterface/Views/Ogretmen/createOgretmen.cshtml]

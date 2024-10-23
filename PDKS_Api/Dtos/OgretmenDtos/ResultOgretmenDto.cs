@@ -16,7 +16,7 @@ namespace PDKS_Api.Dtos.OgretmenDtos
         [JsonIgnore]
         public DateTime ogretmen_dogum_tarihi { get; set; }
 
-        [JsonPropertyName("dogum_tarihi")]
+        [JsonPropertyName("ogretmen_dogum_tarihi")]
         public string FormattedDogumTarihi
         {
             get

@@ -15,7 +15,7 @@ namespace PDKS_UserInterface.Dtos.VeliDtos
         [JsonIgnore]
         public DateTime veli_dogum_tarihi { get; set; }
 
-        [JsonPropertyName("dogum_tarihi")]
+        [JsonPropertyName("veli_dogum_tarihi")]
         public string FormattedDogumTarihi
         {
             get

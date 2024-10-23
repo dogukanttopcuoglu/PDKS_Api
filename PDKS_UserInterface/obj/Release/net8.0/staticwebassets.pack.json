@@ -989,6 +989,10 @@
       "PackagePath": "staticwebassets\\starter\\starter-license-W3Layouts.txt"
     },
     {
+      "Id": "C:\\Users\\Dogukan\\source\\repos\\PDKS_Api\\PDKS_UserInterface\\wwwroot\\user.png",
+      "PackagePath": "staticwebassets\\user.png"
+    },
+    {
       "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.PDKS_UserInterface.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },

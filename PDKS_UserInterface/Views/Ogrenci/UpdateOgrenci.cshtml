@@ -1,0 +1,55 @@
+﻿@model UpdateOgrenciDto
+@{
+    ViewData["Title"] = "UpdateOgrenci";
+    Layout = "~/Views/Admin/Index.cshtml";
+}
+
+<div class="container-fluid pt-4 px-4">
+    <div class="row g-4">
+        <div class="col-12">
+            <div class="bg-light rounded h-100 p-4">
+                <h6 class="mb-4">Öğrenci Güncelleme Sayfası</h6>
+                <form asp-action="UpdateOgrenci" asp-controller="Ogrenci" method="post">
+                    <input type="hidden" asp-for="ögrenci_id" />
+                    <div class="form-group">
+                        <label>Öğrenci Adı</label>
+                        <input type="text" asp-for="ogrenci_ad" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                        <label>Öğrenci Soyadı</label>
+                        <input type="text" asp-for="ogrenci_soyad" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                        <label>Öğrenci Telefon Numarası</label>
+                        <input type="text" asp-for="ogrenci_telefon_no" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                        <label>Öğrenci Adres</label>
+                        <input type="text" asp-for="ogrenci_adres" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                        <label>Öğrenci Cinsiyet</label>
+                        <input type="text" asp-for="ogrenci_cinsiyet" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                        <label>Öğrenci Doğum Tarihi</label>
+                        <input type="date" asp-for="ogrenci_dogum_tarihi" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                        <label>Öğrenci Veli ID</label>
+                        <input type="text" asp-for="ogrenci_veli_id" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                        <label>Öğrenci Sınıf ID</label>
+                        <input type="text" asp-for="ogrenci_sınıf_id" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                        <label>Öğrenci Öğretmen ID</label>
+                        <input type="text" asp-for="ogrenci_ögretmen_id" class="form-control" />
+                    </div>
+                    <br />
+                    <button type="submit" class="btn btn-primary">Öğrenciyi Güncelle</button>
+                </form>
+            </div>
+        </div>
+    </div>

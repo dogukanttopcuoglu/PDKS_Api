@@ -106,8 +106,6 @@ C:\Users\Dogukan\source\repos\PDKS_Api\PDKS_UserInterface\bin\Release\net8.0\ref
 C:\Users\Dogukan\source\repos\PDKS_Api\PDKS_UserInterface\bin\Release\net8.0\refs\Microsoft.Extensions.Configuration.KeyPerFile.dll
 C:\Users\Dogukan\source\repos\PDKS_Api\PDKS_UserInterface\bin\Release\net8.0\refs\Microsoft.Extensions.Configuration.UserSecrets.dll
 C:\Users\Dogukan\source\repos\PDKS_Api\PDKS_UserInterface\bin\Release\net8.0\refs\Microsoft.Extensions.Configuration.Xml.dll
-C:\Users\Dogukan\source\repos\PDKS_Api\PDKS_UserInterface\bin\Release\net8.0\refs\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\Users\Dogukan\source\repos\PDKS_Api\PDKS_UserInterface\bin\Release\net8.0\refs\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\Dogukan\source\repos\PDKS_Api\PDKS_UserInterface\bin\Release\net8.0\refs\Microsoft.Extensions.Diagnostics.Abstractions.dll
 C:\Users\Dogukan\source\repos\PDKS_Api\PDKS_UserInterface\bin\Release\net8.0\refs\Microsoft.Extensions.Diagnostics.dll
 C:\Users\Dogukan\source\repos\PDKS_Api\PDKS_UserInterface\bin\Release\net8.0\refs\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
@@ -537,3 +535,5 @@ C:\Users\Dogukan\source\repos\PDKS_Api\PDKS_UserInterface\bin\Release\net8.0\Sys
 C:\Users\Dogukan\source\repos\PDKS_Api\PDKS_UserInterface\bin\Release\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\Dogukan\source\repos\PDKS_Api\PDKS_UserInterface\bin\Release\net8.0\Microsoft.IdentityModel.Protocols.dll
 C:\Users\Dogukan\source\repos\PDKS_Api\PDKS_UserInterface\bin\Release\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Dogukan\source\repos\PDKS_Api\PDKS_UserInterface\bin\Release\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Dogukan\source\repos\PDKS_Api\PDKS_UserInterface\bin\Release\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll

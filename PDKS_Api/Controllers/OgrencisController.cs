@@ -29,7 +29,7 @@ namespace PDKS_Api.Controllers
             _ogrenciRepository.CreateOgrenci(createOgrenciDto);
             return Ok("Öğrenci Başarılı Bir Şekilde Eklendi");
         }
-        [HttpDelete]
+        [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteOgrenci(int id)
         {
             _ogrenciRepository.DeleteOgrenci(id);
@@ -47,6 +47,20 @@ namespace PDKS_Api.Controllers
             var values = await _ogrenciRepository.GetOgrenciListByOgretmenAsync(id);
             return Ok(values);
         }
+        [HttpGet("OgrenciListWithVSO")]
+        public async Task<IActionResult> OgrenciListWithVSO()
+        {
+            var values = await _ogrenciRepository.GetAllOgrenciWithVSOAsync();
+            return Ok(values);
+
+        }
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetOgrenci(int id)
+        {
+            var value = await _ogrenciRepository.GetOgrenci(id);
+            return Ok(value);
+        }
+
 
     }   
 }

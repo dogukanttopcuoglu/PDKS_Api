@@ -22,6 +22,9 @@
                                 <th scope="col">Adres</th>
                                 <th scope="col">Cinsiyet</th>
                                 <th scope="col">Doğum Tarihi</th>
+                                <th scope="col">Veli_ID</th>
+                                <th scope="col">Sınıf_ID</th>
+                                <th scope="col">Öğretmen_ID</th>
                                 <th scope="col">Sil</th>
                                 <th scope="col">Güncelle</th>
 
@@ -39,9 +42,12 @@
                                     <td>@item.ogrenci_telefon_no</td>
                                     <td>@item.ogrenci_adres</td>
                                     <td>@item.ogrenci_cinsiyet</td>
-                                    <td>@item.ogrenci_dogum_tarihi</td>
-                                    <td><a href="/Veli/DeleteVeli/@item.ögrenci_id" button type="button" class="btn btn-danger">Sil</a></td>
-                                    <td><a href="/Veli/UpdateVeli/@item.ögrenci_id" button type="button" class="btn btn-success">Güncelle</a></td>
+                                    <td>@item.ogrenci_dogum_tarihi.ToString("dd.MM.yyyy")</td>
+                                    <td>@item.ogrenci_veli_id</td>
+                                    <td>@item.ogrenci_sınıf_id</td>
+                                    <td>@item.ogrenci_ögretmen_id</td>
+                                    <td><a href="/Ogrenci/DeleteOgrenci/@item.ögrenci_id" button type="button" class="btn btn-danger">Sil</a></td>
+                                    <td><a href="/Ogrenci/UpdateOgrenci/@item.ögrenci_id" button type="button" class="btn btn-success">Güncelle</a></td>
 
                                 </tr>
                                 sayac++;
@@ -49,7 +55,7 @@
 
                         </tbody>
                     </table>
-                    <a href="\Veli\createVeli" class="btn btn-outline-info">Yeni Öğrenci Giriş</a>
+                    <a href="/Ogrenci/CreateOgrenci/" class="btn btn-outline-info">Yeni Öğrenci Giriş</a>
                 </div>
             </div>
         </div>

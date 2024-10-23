@@ -11,6 +11,9 @@ namespace PDKS_Api.Repositories.OgrenciRepository
 
         void UpdateOgrenci(UpdateOgrenciDto ogrenciDto );
 
+        Task<GetByIDOgrenciDto> GetOgrenci(int id);
+
+        Task<List<ResultOgrenciWithVSODto>> GetAllOgrenciWithVSOAsync();
 
     }
 }

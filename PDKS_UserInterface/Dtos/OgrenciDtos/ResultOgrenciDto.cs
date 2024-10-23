@@ -14,7 +14,7 @@ namespace PDKS_UserInterface.Dtos.OgrenciDtos
         [JsonIgnore]
         public DateTime ogrenci_dogum_tarihi { get; set; }
 
-        [JsonPropertyName("dogum_tarihi")]
+        [JsonPropertyName("ogrenci_dogum_tarihi")]
         public string FormattedDogumTarihi
         {
             get

@@ -16,7 +16,7 @@ namespace PDKS_Api.Dtos.OgrenciDtos
         [JsonIgnore]
         public DateTime ogrenci_dogum_tarihi { get; set; }
 
-        [JsonPropertyName("dogum_tarihi")]
+        [JsonPropertyName("ogrenci_dogum_tarihi")]
         public string FormattedDogumTarihi
         {
             get
@@ -29,7 +29,7 @@ namespace PDKS_Api.Dtos.OgrenciDtos
         public int ogrenci_sınıf_id { get; set; }
         //public virtual ResultOgretmenDto ResultOgretmenDto { get; set; }
 
-        //public int ögretmen_id { get; set; }
+        public int ogrenci_ögretmen_id { get; set; }
 
     }
 }

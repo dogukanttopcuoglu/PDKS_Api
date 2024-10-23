@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "BmeiCut9B4kE9V0nYuoYNY9fbwaZhUw19mLeHKBVJfw=",
+  "Hash": "keBc0HH3u7S75BwKj38nnw9aLQKfYf7Wlx7axqBMuMg=",
   "Source": "PDKS_UserInterface",
   "BasePath": "_content/PDKS_UserInterface",
   "Mode": "Default",
@@ -4727,6 +4727,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\starter\\starter-license-W3Layouts.txt"
+    },
+    {
+      "Identity": "C:\\Users\\Dogukan\\source\\repos\\PDKS_Api\\PDKS_UserInterface\\wwwroot\\user.png",
+      "SourceId": "PDKS_UserInterface",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Dogukan\\source\\repos\\PDKS_Api\\PDKS_UserInterface\\wwwroot\\",
+      "BasePath": "_content/PDKS_UserInterface",
+      "RelativePath": "user.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\user.png"
     }
   ]
 }
