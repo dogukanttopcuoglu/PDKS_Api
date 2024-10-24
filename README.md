@@ -1,6 +1,17 @@
 This project is developed for schools to keep track the data of students,teachers,parent's essential informations.
 PDKS_Api for backend codes.
 PDKS_UserInterface for UI.
+Database folder includes MS SQL Database.You can start application after you create database with PDKSDatabse.bak file in MS SQL Server.
+
+
+Make sure it is connected to the project :
+
+![image](https://github.com/user-attachments/assets/01dead06-c0bc-47c7-8cfc-faeea07bc92f)
+
+
+![image](https://github.com/user-attachments/assets/345cf3a2-ff73-47c2-b515-821241a7fa7a)
+
+
 
 You can run this project with following instrucitons:
 
